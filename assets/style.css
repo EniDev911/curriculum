@@ -35,7 +35,7 @@ body {
 .container .left_side {
   position: relative;
   background: #003148;
-  padding: 15px;
+  padding: 25px;
 }
 
 .flags {
@@ -170,7 +170,7 @@ body {
 .container .right_side {
   position: relative;
   background: #fff;
-  padding: 40px;
+  padding: 25px;
   display: flex;
   flex-direction: column;
 }
@@ -251,12 +251,14 @@ body {
     margin: 50px;
   }
 
-  .container .left_side {
+  .container .left_side,
+  .right_side {
     padding: 40px;
   }
 
   .profile {
     border-bottom: 1px solid #2c7799;
+    padding: 40px;
   }
 
   .right_side__item .box {
