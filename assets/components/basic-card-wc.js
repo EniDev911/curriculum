@@ -7,9 +7,12 @@ class BasicCard extends HTMLElement {
     const name = this.getAttribute("name");
     const src = this.getAttribute("src");
     const href = this.getAttribute("href");
-    const html = /* html */`<div class="card" onclick="window.location.href = '${href}'">
+    const html = /* html */`<div class="card">
       <img src="${src}" alt="${name}">
-      <span>${name}</span>
+      <div>
+      <span>${name}</span><br />
+      ${href ? `<a href="${href}" target="_blank">Homepage</a>` : 'no hay link'}      
+      </div>
     </div>`;
     this.insertAdjacentHTML("beforeend", html);
   }

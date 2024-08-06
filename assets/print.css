@@ -6,7 +6,7 @@
 @media print {
     #name {
         position: absolute;
-        top: -1300px;
+        top: -200px;
         z-index: 3;
         color: #444;
     }
@@ -31,10 +31,6 @@
         display: none !important;
     }
 
-    /* .about:first-child {
-      position: absolute;
-      top: -700px;
-    } */
     .contact_info {
         /* position: absolute; */
         width: 100%;
@@ -71,5 +67,7 @@
         display: none !important;
     }
 
-
+    .langs ul {
+        display: none !important;
+    }
 }

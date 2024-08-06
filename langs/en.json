@@ -1,21 +1,17 @@
 {
   "profile": {
     "rol": "Fullstack Developer",
-    "contact": "contact info",
-    "language": "skills",
-    "spanish": "spanish",
-    "english": "english",
-    "description": "4 años de experencia en desarrollo web. Apasionado por las nuevas tecnologías y la plataforma web en especial del ecosistema de CSS y Javascript. <br> Mi propósito es llevar la pasión de compartir el conocimiento y aprender buenas practica que respetan los estándares."
+    "contact": "contact info"
   },
   "about": {
     "section-title": "Profile",
-    "description": "Chilean programmer, graduated in Computer Programming, I have several years of experience in web development. Passionate about new technologies and especially the Javascript ecosystem. I am currently a freelance developer and I am always willing to learn and share knowledge. I focus a lot on carrying out good development practices, both standards and compatibility."
+    "description": "Professional, graduated in Computer Programming, I have several years of experience in web development. Passionate about new technologies and especially the Javascript ecosystem. I am currently a freelance developer and I am always willing to learn and share knowledge. I focus on carrying out good development practices to ensure that the code is efficient, maintainable and error-free."
   },
   "education": {
-     "section-title": "education",
-     "first-career-title": "Computer programming",
-     "first-career-date": "2018 - 2020",
-     "first-career-entity": "AIEP IP"
+    "section-title": "education",
+    "first-career-title": "Computer programming",
+    "first-career-date": "2018 - 2020",
+    "first-career-entity": "AIEP IP"
   },
   "experience": {
     "section-title": "experience",
@@ -25,14 +21,14 @@
     "first-job-description": "Manage complete developments, working based on customer requirements and specifications, preparing detailed documentation on the analysis and progress of the projects.",
     "second-job-date": "April 2019 - February 2020",
     "second-job-rol": "Java Junior Developer",
-     "second-job-company": "TD digital",
+    "second-job-company": "TOC digital",
     "second-job-description": "Effectively tackled complex problems. Implementation and update of application modules under the direction of senior software developers. I worked successfully both independently and in a team. Performed automated testing tasks and built add-on features on a routine basis.",
     "thrid-job-date": "Jan 2018 - Jan 2019",
     "thrid-job-company": "polisoft",
     "thrid-job-description": "Productive collaboration with team to understand business requirements and specifications around product stewardship."
   },
   "skills": {
-    "section-title": "Bootcamps"
+    "section-title": "Skills"
   },
   "interest": {
     "section-title": "interests",
