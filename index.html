@@ -35,11 +35,11 @@
   <div class="container">
     <div class="left_side">
       <div class="flags" id="flags">
-        <div class="flag__item" data-lang="es">
+        <div class="flag__item" data-lang="es" title="español">
           <img src="assets/es.svg" alt="flag spanish" class="flag__img">
         </div>
         <div class="flag__item" data-lang="en">
-          <img src="assets/um.svg" alt="flag english" class="flag__img">
+          <img src="assets/um.svg" alt="flag english" class="flag__img" title="inglés">
         </div>
       </div>
       <div class="profile_text">
@@ -54,8 +54,10 @@
         <ul>
           <!-- PHONE -->
           <li>
-            <span class="icon"><i class="fa-solid fa-mobile-screen-button"></i></span>
-            <span class="text">+56 939131909</span>
+            <a class="link" href="tel:+56957890753">
+              <span class="icon"><i class="fa-solid fa-mobile-screen-button"></i></span>
+              <span class="text">+56 957890753</span>
+            </a>
           </li>
           <li>
             <!-- MAIL -->
@@ -72,14 +74,6 @@
             <span class="text">Linkedin</span>
           </a>
         </li>
-        <li>
-          <!-- GITHUB -->
-          <a href="https://github.com/enidev911" target="_blank" class="link">
-            <span class="icon"><i
-              class="fa-brands fa-square-github"></i></span>
-              <span class="text">Github</span>
-            </a>
-          </li>
           <li>
             <!-- HACKKERRANK -->
             <a href="https://www.hackerrank.com/enidev911" target="_blank" class="link">
@@ -88,7 +82,6 @@
                 <span class="text">Hackerrank</span>
               </a>
             </li>
-
           </ul>
         </div>
         <div class="contact_info education">
@@ -105,6 +98,29 @@
         <div class="contact_info langs">
           <!-- LANGUAGES SECTION -->
           <h3 class="title" data-section="profile" data-value="language">Idiomas</h3>
+          <!-- PROFESSIONAL SKILL -->
+        <div class="about skills">
+          <div class="skills-container">
+              <i class='fa-brands fa-html5 skill-icon'></i>
+              <i class='fa-brands fa-css3-alt skill-icon'></i>
+              <i class='fa-brands fa-js skill-icon'></i>
+              <i class='skill-icon-bg' style="background: url('./assets/skills/typescript.svg') no-repeat center; background-size: 100% 100%; display: inline-block;"></i>
+              <i class='fa-brands fa-git-alt skill-icon'></i>
+              <i class="fa-brands fa-github skill-icon"></i>
+              <i class='skill-icon-bg' style="background: url('./assets/skills/mongodb.svg') no-repeat center; background-size: 100% 100%; display: inline-block"></i>
+              <i class='fa-brands fa-sass skill-icon'></i>
+              <i class='skill-icon-bg' style="background: url('./assets/skills/react.svg') no-repeat center; background-size: 100% 100%; display: inline-block;"></i>
+              <i class='fa-brands fa-python skill-icon'></i>
+              <i class='skill-icon-bg' style="background: url('./assets/skills/postgres.svg') no-repeat center; display: inline-block;"></i>
+              <i class='skill-icon-bg' style="background: url('./assets/skills/nodejs.svg') no-repeat center;  background-size: 100% 100%; display: inline-block;"></i>
+              <i class='skill-icon-bg' style="background: url('./assets/skills/ruby-lang-icon.svg') no-repeat center;  background-size: 100% 100%; display: inline-block;"></i>
+              <i class="fa-brands fa-vuejs skill-icon"></i>
+              <i class="fa-brands fa-aws skill-icon"></i>
+              <i class="fa-brands fa-docker skill-icon"></i>
+              <i class="fa-brands fa-linux skill-icon"></i>
+              <i class="fa-brands fa-gitlab skill-icon"></i>
+        </div>
+      </div>
           <ul>
             <li>
               <span class="text" data-section="profile" data-value="english">English</span>
@@ -171,83 +187,15 @@
         </div>
         <!-- PROFESSIONAL SKILL -->
         <div class="about skills">
-          <style>
-            .skills-container {
-              display: grid;
-              grid-template-columns: repeat(3, 1fr);
-              background-color: #fff;
-            }
-            h4.skill-text {
-              text-transform: uppercase;
-              color: #848c99;
-              font-weight: 500;
-            }
-
-            .skill-icon {
-              color: #03a9f4;
-              font-size: 20px;
-              width: 20px;
-            }
-            @media(max-width: 600px){
-              .skills-container {
-                grid-template-columns: repeat(2, 1fr);
-              }
-            }
-          </style>
           <h2 class="title-about" data-section="skills" data-value="section-title">Professional Skills</h2>
-          <div class="skills-container">
-            <h4 class="skill-text">
-              <i class='fa-brands fa-html5 skill-icon'></i>
-              Html5
-            </h4>
-            <h4 class="skill-text">
-              <i class='fa-brands fa-css3-alt skill-icon'></i>
-              Css
-            </h4>
-            <h4 class="skill-text">
-              <i class='fa-brands fa-js skill-icon'></i>
-              Javascript
-            </h4>
-            <h4 class="skill-text">
-              <i class='skill-icon' style="background: url('./assets/skills/typescript.svg') no-repeat center; background-size: 100% 100%; height: 19px; display: inline-block;"></i>
-              Typescript
-            </h4>
-            <h4 class="skill-text">
-              <i class='fa-brands fa-git-alt skill-icon'></i>
-              Git
-            </h4>
-            <h4 class="skill-text">
-              <i class="fa-brands fa-square-github skill-icon"></i>
-              Github
-            </h4>
-            <h4 class="skill-text">
-             <i class='skill-icon' style="background: url('./assets/skills/mongodb.svg') no-repeat center; background-size: 100% 100%; height: 19px; display: inline-block;"></i>
-             Mongodb
-           </h4>
-           <h4 class="skill-text">
-            <i class='fa-brands fa-sass skill-icon'></i>
-            Sass
-          </h4>
-          <h4 class="skill-text">
-            <i class='skill-icon' style="background: url('./assets/skills/react.svg') no-repeat center; background-size: 100% 100%; height: 19px; display: inline-block;"></i>
-            React
-          </h4>
-          <h4 class="skill-text">
-            <i class='fa-brands fa-python skill-icon'></i>
-            Python
-          </h4>
-          <h4 class="skill-text">
-            <i class='skill-icon' style="background: url('./assets/skills/postgres.svg') no-repeat center; height: 20px; display: inline-block;"></i>
-            Postgresql
-          </h4>
-          <h4 class="skill-text">
-            <i class='skill-icon' style="background: url('./assets/skills/nodejs.svg') no-repeat center;  background-size: 100% 100%; height: 20px; display: inline-block;"></i>
-          Nodejs</h4>
-        </div>
+          <basic-card href="https://www.acreditta.com/credential/9000349f-4634-4d06-a26b-9af13d6ac952" name="fullstack ror" src="assets/skills/ror.png"></basic-card>
+          <basic-card name="fullstack javascript" src="assets/skills/js.svg"></basic-card>
+          <basic-card name="fullstack python" src="assets/skills/python.svg"></basic-card>
+          
       </div>
       <!-- Interest -->
       <div class="about interest">
-        <h2 data-section="interest" data-value="section-title" class="title-about">Interest</h2>
+        <h2 data-section="interest" data-value="section-title" class="title-about">Trabajos</h2>
         <ul>
           <li id="d" data-section="interest" data-value="hobby-1">
             Gaming
@@ -322,6 +270,7 @@
       }
     }
   </script>
+  <script type="module" src="assets/components/basic-card-wc.js"></script>
 </body>
 
 </html>

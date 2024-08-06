@@ -1,7 +1,8 @@
 @page {
-  size: A4;
-  margin: 0;
+    size: A4;
+    margin: 0;
 }
+
 @media print {
     #name {
         position: absolute;
@@ -9,6 +10,7 @@
         z-index: 3;
         color: #444;
     }
+
     .container {
         border: none;
         display: flex;
@@ -16,24 +18,29 @@
         margin-top: 100px;
         box-shadow: none;
     }
+
     .flags {
         display: none;
     }
-    .profile_text .profile_img  {
+
+    .profile_text .profile_img {
         display: none;
     }
+
     .skill-icon {
         display: none !important;
     }
+
     /* .about:first-child {
       position: absolute;
       top: -700px;
     } */
-    .contact_info  {
-      /* position: absolute; */
-      width: 100%;
-      padding: 0 !important;
+    .contact_info {
+        /* position: absolute; */
+        width: 100%;
+        padding: 0 !important;
     }
+
     .contact_info .title {
         color: #333 !important;
         text-decoration: none !important;
@@ -44,18 +51,22 @@
         padding: 0 !important;
         color: #333 !important;
     }
+
     .right_side {
         width: 90%;
         margin: 0 auto;
-        padding: 0!important;
+        padding: 0 !important;
     }
+
     .about {
-         margin-bottom: 0 !important;
+        margin-bottom: 0 !important;
     }
-     .skills{
+
+    .skills {
         background-color: #333;
         margin-bottom: 90px !important;
     }
+
     i {
         display: none !important;
     }

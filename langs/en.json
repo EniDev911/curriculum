@@ -2,7 +2,7 @@
   "profile": {
     "rol": "Fullstack Developer",
     "contact": "contact info",
-    "language": "languages",
+    "language": "skills",
     "spanish": "spanish",
     "english": "english",
     "description": "4 años de experencia en desarrollo web. Apasionado por las nuevas tecnologías y la plataforma web en especial del ecosistema de CSS y Javascript. <br> Mi propósito es llevar la pasión de compartir el conocimiento y aprender buenas practica que respetan los estándares."
@@ -32,7 +32,7 @@
     "thrid-job-description": "Productive collaboration with team to understand business requirements and specifications around product stewardship."
   },
   "skills": {
-    "section-title": "PROFESSIONAL SKILLS"
+    "section-title": "Bootcamps"
   },
   "interest": {
     "section-title": "interests",
