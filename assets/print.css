@@ -4,18 +4,43 @@
 }
 
 @media print {
-    #name {
-        position: absolute;
-        top: -200px;
-        z-index: 3;
-        color: #444;
+    #contact {
+        display: flex;
+        gap: 30px;
+        color: #191919 !important;
+    }
+
+    .left_side__item .education * {
+        color: #191919 !important;
+    }
+
+    #experience {
+        margin-top: 250px;
+    }
+
+    .projects {
+        margin-top: 220px;
+        height: 1030px;
+    }
+
+    p {
+        color: #111 !important;
+    }
+
+    .profile_img {
+        display: none !important;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
     }
 
     .container {
         border: none;
         display: flex;
-        flex-direction: column-reverse;
-        margin-top: 100px;
+        /* flex-direction: column-reverse; */
+        flex-direction: column;
         box-shadow: none;
     }
 
@@ -23,51 +48,9 @@
         display: none;
     }
 
-    .profile_text .profile_img {
-        display: none;
+    .bootcamps ul {
+        display: flex;
+        justify-content: space-between;
     }
 
-    .skill-icon {
-        display: none !important;
-    }
-
-    .contact_info {
-        /* position: absolute; */
-        width: 100%;
-        padding: 0 !important;
-    }
-
-    .contact_info .title {
-        color: #333 !important;
-        text-decoration: none !important;
-        border: none !important;
-    }
-
-    .contact_info ul li span.text {
-        padding: 0 !important;
-        color: #333 !important;
-    }
-
-    .right_side {
-        width: 90%;
-        margin: 0 auto;
-        padding: 0 !important;
-    }
-
-    .about {
-        margin-bottom: 0 !important;
-    }
-
-    .skills {
-        background-color: #333;
-        margin-bottom: 90px !important;
-    }
-
-    i {
-        display: none !important;
-    }
-
-    .langs ul {
-        display: none !important;
-    }
 }
