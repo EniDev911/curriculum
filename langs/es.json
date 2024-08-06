@@ -3,7 +3,6 @@
     "rol" : "Desarrollador Fullstack",
     "contact": "contacto"
   },
-
   "about": {
     "section-title": "Perfil profesional",
     "description": "Profesional, titulado de la carrera de Programación Computacional, tengo varios años de experiencia en desarrollo web. Apasionado por las nuevas tecnologías y en especial del ecosistema de Javascript. Actualmente soy desarrollador freelance y siempre estoy dispuesto para aprender y compartir el conocimiento. Me enfoco en llevar a cabo buenas practicas de desarrollo para garantizar que el código sea eficiente, mantenible y libre de errores."
@@ -33,7 +32,10 @@
     "thrid-job-date": "Enero 2018 - Enero 2019",
     "thrid-job-company": "Polisoft",
     "thrid-job-description": "Colaborar con diseñadores para implementar visualmente las interfaces según los prototipos. Participar activamente en reuniones de equipo, presentaciones de progreso y sesiones de retroalimentación para mejorar las habilidades y conocimiento del proyecto"
-  }, 
+  },
+  "skills": {
+    "section-title": "habilidades"
+  },
   "projects": {
       "section-title": "proyectos web"
   },
