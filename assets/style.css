@@ -51,7 +51,7 @@ body {
 
 .flag__item {
   width: 70px;
-  border: 2px solid #fff;
+  /* border: 2px solid #fff; */
   margin-right: 12px;
 }
 
@@ -59,6 +59,34 @@ body {
   display: block;
   cursor: pointer;
 }
+
+img.active {
+  filter: brightness(0) invert(1);
+}
+
+.tippy-tooltip {
+  background-color: #03a9f4;
+  color: #191919;
+  border: 1px solid #fff;
+}
+
+.tippy-tooltip[data-placement^='top'] .tippy-arrow {
+  border-top-color: #03a9f4;
+
+}
+
+.tippy-tooltip[data-placement^='bottom'] .tippy-arrow {
+  border-bottom-color: #03a9f4;
+}
+
+.tippy-tooltip[data-placement^='left'][data-placement^='left'] .tippy-arrow {
+  border-left-color: #03a9f4;
+}
+
+.tippy-tooltip[data-placement^='right'] .tippy-arrow {
+  border-right-color: #03a9f4;
+}
+
 
 .profile {
   position: relative;

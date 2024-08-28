@@ -1,18 +1,18 @@
 {
   "profile": {
-    "rol" : "Desarrollador Fullstack",
+    "rol": "Desarrollador Fullstack",
     "contact": "contacto"
   },
   "about": {
     "section-title": "Perfil profesional",
-    "description": "Profesional, titulado de la carrera de Programación Computacional, tengo varios años de experiencia en desarrollo web. Apasionado por las nuevas tecnologías y en especial del ecosistema de Javascript. Actualmente soy desarrollador freelance y siempre estoy dispuesto para aprender y compartir el conocimiento. Me enfoco en llevar a cabo buenas prácticas de desarrollo para garantizar que el código sea eficiente, mantenible y libre de errores."
+    "description": "Profesional, titulado de la carrera de Programación Computacional, tengo varios años de experiencia en desarrollo web. Apasionado por las nuevas tecnologías y en especial del ecosistema de JavaScript. Actualmente soy desarrollador freelance y siempre estoy dispuesto para aprender y compartir el conocimiento. Me enfoco en llevar a cabo buenas prácticas de desarrollo para garantizar que el código sea eficiente, mantenible y libre de errores."
   },
   "education": {
-      "section-title": "educación",
-      "first-career-title": "Programación computacional",
-      "first-career-date": "2018 - 2020",
-      "first-career-entity": "AIEP IP",
-      "second-career-title": "Desarrollador fullstack Java"
+    "section-title": "educación",
+    "first-career-title": "Programación computacional",
+    "first-career-date": "2018 - 2020",
+    "first-career-entity": "AIEP IP",
+    "second-career-title": "Desarrollador fullstack Java"
   },
   "experience": {
     "section-title": "experiencia",
@@ -37,10 +37,10 @@
     "section-title": "habilidades"
   },
   "projects": {
-      "section-title": "proyectos web"
+    "section-title": "proyectos web"
   },
-  "interest" : {
-    "section-title" : "intereses",
+  "interest": {
+    "section-title": "intereses",
     "hobby-1": "<i class='fa-solid fa-gamepad'></i> Videojuegos",
     "hobby-2": "<i class='fa-solid fa-glasses'></i> Leer",
     "hobby-3": "<i class='fa-solid fa-atom'></i> Ciencias",

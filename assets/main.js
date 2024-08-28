@@ -14,7 +14,17 @@ flagsElement.addEventListener("click", (e) => {
     localStorage.setItem('lang', language)
     changeLang(language);
   }
-})
+
+  document.querySelectorAll(".flag__img").forEach(i => {
+    if (i === e.target) {
+      i.classList.add("active");
+    } else {
+      i.classList.remove("active");
+      i.style.filter = ""
+    }
+  })
+
+});
 const textsToChange = document.querySelectorAll("[data-section]");
 
 const changeLang = async language => {
@@ -23,6 +33,7 @@ const changeLang = async language => {
     ttc.style.animation = ""
     ttc.style.animationDuration = ""
   })
+
   const requestJSON = await fetch(`./langs/${language}.json`),
     data = await requestJSON.json();
 
@@ -50,3 +61,7 @@ function toggleFullScreen() {
     }
   }
 }
+
+tippy('[data-tippy-content]', {
+  theme: 'light'
+});
