@@ -28,7 +28,11 @@
     }
 
     .profile_img {
-        display: none !important;
+        /* display: none !important; */
+        position: absolute;
+        right: 0;
+        top: 100px;
+        border-radius: 0;
     }
 
     body {
@@ -45,7 +49,7 @@
     }
 
     .flags {
-        display: none;
+        display: none !important;
     }
 
     .bootcamps ul {
