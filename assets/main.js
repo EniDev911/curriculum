@@ -5,6 +5,9 @@ document.onreadystatechange = () => {
     localStorage.getItem('lang')
       ? changeLang(localStorage.getItem('lang'))
       : changeLang('es')
+      localStorage.getItem('lang') == "es"
+      ? document.getElementById("flag_es").classList.add("active")
+      : document.getElementById("flag_en").classList.add("active")
   }
 }
 
