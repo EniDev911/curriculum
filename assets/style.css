@@ -101,7 +101,10 @@ img.active {
   border-radius: 50%;
   overflow: hidden;
   background: linear-gradient(15deg, #000, #003148);
-  border: .01rem solid #03a9f490;
+  /*border: .01rem solid #003148;*/
+  box-shadow: 
+    inset  -4px -4px 10px rgba(0, 55, 120, 0.45), 
+    inset  4px 4px 7px rgba(0, 50, 120, 0.38);
 }
 
 .profile_img img {
